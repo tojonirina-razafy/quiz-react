@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "question": "Quel est le framework JavaScript le plus populaire ?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Quelle entreprise a inventé React ?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Quel est l’élément fondamental des applications React ?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Quel est le nom de la syntaxe que nous utilisons pour décrire l'interface utilisateur dans les composants React ?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Comment les données circulent-elles naturellement dans les applications React ?",
+      "options": [
+        "Des parents aux enfants",
+        "Des enfants aux parents",
+        "Dans les deux sens",
+        "Les développeurs décident"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Comment passer des données à un composant enfant ?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Quand utiliser l’état dérivé ?",
+      "options": [
+        "Chaque fois que l'état ne doit pas déclencher un nouveau rendu",
+        "Chaque fois que l'état peut être synchronisé avec un effet",
+        "Chaque fois que l'État doit être accessible à toutes les composantes",
+        "Chaque fois que l'état peut être calculé à partir d'une autre variable d'état"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Qu'est-ce qui déclenche un nouveau rendu de l'interface utilisateur dans React ?",
+      "options": [
+        "Exécution d'un effet",
+        "Passer les accessoires",
+        "Mise à jour de l'état",
+        "Ajout d'écouteurs d'événements aux éléments DOM"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Quand est-ce qu'on « touche » directement le DOM dans React ?",
+      "options": [
+        "Quand nous avons besoin d'écouter un événement",
+        "Quand nous devons modifier l'interface utilisateur",
+        "Quand nous devons ajouter des styles",
+        "Presque jamais"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Dans quelle situation utilisons-nous un rappel pour mettre à jour l'état ?",
+      "options": [
+        "Lors de la mise à jour de l'état, cela sera lent",
+        "Lorsque l'état mis à jour est très gourmand en données",
+        "Quand la mise à jour de l'état devrait se produire plus rapidement",
+        "Lorsque le nouvel état dépend de l’état précédent"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Si nous passons une fonction à useState, quand cette fonction sera-t-elle appelée ?",
+      "options": [
+        "À chaque nouveau rendu",
+        "Chaque fois que nous mettons à jour l'état",
+        "Uniquement sur le rendu initial",
+        "La première fois que nous mettons à jour l'état"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Quel hook utiliser pour une requête API sur le rendu initial du composant ?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Quelles variables doivent figurer dans le tableau de dépendances useEffect ?",
+      "options": [
+        "Généralement aucun",
+        "Toutes nos variables d'état",
+        "Tous les états et accessoires référencés dans l'effet",
+        "Toutes les variables nécessaires au nettoyage"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Un effet sera toujours exécuté sur le rendu initial.",
+      "options": [
+        "Vrai",
+        "Cela dépend du tableau de dépendances",
+        "Faux",
+        "Cela dépend du code dans l'effet"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Quand un effet s'exécutera-t-il s'il n'a pas de tableau de dépendances ?",
+      "options": [
+        "Uniquement lorsque le composant est monté",
+        "Uniquement lorsque le composant est démonté",
+        "La première fois que le composant est restitué",
+        "Chaque fois que le composant est ré-rendu"
+      ],
+      "correctOption": 3,
+      "points": 20
+    }
+  ]
+}
